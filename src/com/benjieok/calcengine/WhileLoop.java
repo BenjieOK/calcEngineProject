@@ -4,7 +4,7 @@ public class WhileLoop {
 
     public static void main(String[] args) {
         /*
-         *What is factorial?
+         * What is factorial?
          * The product of all positive integers less than or equal to a given positive integer.
          * Thus, factorial seven is written 7!, meaning 1 × 2 × 3 × 4 × 5 × 6 × 7.
          * Factorial zero is defined as equal to 1.
@@ -15,7 +15,7 @@ public class WhileLoop {
         int factorial = 1;
 
         while(someValue > 1) {
-            factorial *= someValue;
+            factorial *= someValue; //also written as ->  factorial = factorial * someValue;
             someValue--;
         }
 
